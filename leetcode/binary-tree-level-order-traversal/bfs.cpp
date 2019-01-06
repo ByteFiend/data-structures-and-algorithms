@@ -25,7 +25,7 @@ public:
           q.pop();
           curLevel.push_back(p_node->val);
 
-          if (p_node->left){ q.push(p_node->left); }
+          if (p_node->left) { q.push(p_node->left); }
           if (p_node->right) { q.push(p_node->right); }
       }
 
